@@ -1,7 +1,7 @@
 name: Artifacts
 on: push
 jobs:
-  uploade:
+  upload:
     runs-on: ubuntu-latest
     steps:
       - run: date > date.txt
